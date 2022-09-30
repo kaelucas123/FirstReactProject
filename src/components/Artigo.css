@@ -1,0 +1,32 @@
+#container{
+    width: 60%;
+    height: auto;
+    border-radius: 50px;
+    background-color: #FFAF7B;
+    margin-top: 10px;
+}
+#container:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+#art{
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #6dd5ed;
+    margin-bottom: 50px;
+}
+#art h2{
+    font-size: 30px;
+}
+#container p{
+    color: white;
+    align-items: center;
+    padding: 4%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-around;
+}
